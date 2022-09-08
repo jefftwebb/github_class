@@ -127,9 +127,6 @@ library(gitcreds)
 usethis::use_git_config(user.name = "Jeff Webb", user.email = "jeff.webb@utah.edu")
 usethis::create_github_token() # This will take you to github.  Follow the prompts and copy the access token.
 gitcreds::gitcreds_set() # Type the appropriate selection and then enter new token
-
-
-
 ```
 
 - Create a new file in RStudio
