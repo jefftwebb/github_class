@@ -124,7 +124,7 @@ library(credentials)
 library(gitcreds)
 
 # create credentials
-usethis::use_git_config(user.name = "YourName", user.email = "your.email@you.com")
+usethis::use_git_config(user.name = "Jeff Webb", user.email = "jeff.webb@utah.edu")
 usethis::create_github_token() # This will take you to github.  Follow the prompts and copy the access token.
 gitcreds::gitcreds_set() # Type the appropriate selection and then enter new token
 ```
