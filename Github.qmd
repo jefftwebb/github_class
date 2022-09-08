@@ -124,7 +124,7 @@ library(credentials)
 library(gitcreds)
 
 # create credentials
-usethis::use_git_config(user.name = "Jeff Webb", user.email = "jeff.webb@utah.edu")
+usethis::use_git_config(user.name = "YourName", user.email = "your.email@you.com")
 usethis::create_github_token() # This will take you to github.  Follow the prompts and copy the access token.
 gitcreds::gitcreds_set() # Type the appropriate selection and then enter new token
 ```
@@ -134,11 +134,12 @@ gitcreds::gitcreds_set() # Type the appropriate selection and then enter new tok
 - Find your new file and click the box to the left.
 - Click "commit." This will open a new window.
 - Enter a commit message ("initial commit"), click "commit."
-- Click "push."  This *should* push changes to github.
-- Go to your github repo and verify that it did.
+- Click "push."  This *should* push changes to to your linked Github repo.
+- Go to your Github repo and verify that it worked.
 
 ## How to use Github
 
-- Create a résumé using are marked down and store it at get hub
-- Publish project code and analyses, plus associated presentations and papers
-- Use Github as a public portfolio for you to share your skills with the world!
+- Use Github as a public portfolio to be shared with the world!
+  - Store your updated résumé. (Better yet figure out how to make a snazzy resume with RMarkdown, and, as you update it with new information, push those changes to Github for automatic publication. See the `pagedown` package, or the `vitae` package.)
+  - Publish project code and analyses, along with associated presentations and papers. This material will substantiate your abilities for employers.
+
